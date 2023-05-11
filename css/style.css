@@ -1,3 +1,4 @@
+
 ::selection {
     background-color: hsl(115, 65%, 52%);
     color: #efefef;
@@ -5,6 +6,10 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    color: #333;
+    scrollbar-color: #444  #222;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -22,14 +27,17 @@ header {
     background-color: #27272710;
 }
 
-p {
+.fundoBranco p {
+    color: #333;
+}
+
+.fundoVerde p {
     color: #efefef;
-    font-size: 1.2em;
 }
 
 header h1 {
     font-size: 2em;
-    color: hsl(115, 91%, 58%);
+    color: hsl(115, 95%, 31%);
 }
 
 header nav {
@@ -38,9 +46,8 @@ header nav {
 }
 
 a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600;
-    color: #333;
 
     transition: 0.2s;
 }
@@ -67,24 +74,25 @@ a:hover {
 .hero h1 {
     font-size: 5em;
     color: #efefef;
+    background-color: #ffffff20;
 }
 
 .corVerde {
-    color: hsl(115, 91%, 58%);
+    color: hsl(115, 95%, 31%);
+}
+
+.corVermelha {
+    color: hsl(0, 80%, 60%);
 }
 
 section {
     display: flex;
     justify-content: space-around;
-
-    height: 70vh;
-    background-color: hsl(115, 65%, 52%);
-
+    height: 80vh;
     border-top: 2px solid #333;
 }
 
 section h2 {
-    color: #333;
     font-size: 4em;
 
 }
@@ -111,10 +119,6 @@ section#sobre div, section#dados div {
     
 }
 
-section#dados p {
-    color: #333;
-}
-
 caption {
     font-weight: 600;
     font-size: 2em;
@@ -127,7 +131,7 @@ table, tr, td {
     border-radius: 5px;
     padding: 0.5em 3em;
 
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 400;
 
 }
@@ -146,7 +150,7 @@ form {
     background-color: #efefef;
 
     padding: 2em;
-
+    margin-top: 2em;
     border-radius: 5px;
 }
 
@@ -188,7 +192,6 @@ input {
 
     border-radius: 10px;
     background-color: hsl(115, 91%, 58%);
-    color: #333;
 
     transition: 0.2s;
 }
@@ -203,13 +206,10 @@ section#apoiar {
     padding: 4em;
 }
 
-.texto p {
-    color: #333;
-}
-
 h3 {
     font-weight: 600;
     font-size: 1.6em;
+
 }
 
 section#contato div {
@@ -237,4 +237,9 @@ footer {
 footer a {
     padding-left: 2em;
     color: hsl(115, 91%, 58%);
+}
+
+footer a:hover {
+    color: #efefef;
+   
 }
