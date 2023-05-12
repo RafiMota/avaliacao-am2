@@ -1,7 +1,7 @@
 
 ::selection {
-    background-color: hsl(115, 65%, 52%);
-    color: #efefef;
+    background-color: #333;
+    color: hsl(115, 65%, 52%);
 }
 
 * {
@@ -42,19 +42,20 @@ header h1 {
 
 header nav {
     display: flex;
-    gap: 4em;
+    gap: 3.5em;
 }
 
 a {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 600;
+    text-decoration: underline 2px;
 
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 a:hover {
     color: hsl(115, 86%, 52%);
-   
+   text-decoration: none;
 }
 
 .hero {
@@ -72,9 +73,9 @@ a:hover {
 }
 
 .hero h1 {
-    font-size: 5em;
+    font-size: 6em;
     color: #efefef;
-    background-color: #ffffff20;
+    background-color: #ffff8820;
 }
 
 .corVerde {
@@ -90,11 +91,19 @@ section {
     justify-content: space-around;
     height: 80vh;
     border-top: 2px solid #333;
+    
+}
+
+section.fundoVerde {
+    
+    background-image: url("../assets/folhasss.png");
+    background-size: 10em;
+
 }
 
 section h2 {
-    font-size: 4em;
-
+    font-size: 6em;
+    
 }
 
 section#sobre div, section#dados div {
