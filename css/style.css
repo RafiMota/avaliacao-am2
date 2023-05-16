@@ -10,6 +10,7 @@
     scrollbar-color: #444  #222;
     scrollbar-width: thin;
     scroll-behavior: smooth;
+    background-color: #efefef;
 }
 
 header {
@@ -33,6 +34,7 @@ header {
 
 .fundoVerde p {
     color: #efefef;
+    font-size: 1.4rem;
 }
 
 header h1 {
@@ -66,7 +68,7 @@ a:hover {
     align-items: center;
     text-align: center;
 
-    background: url("../assets/fundo.jpg")  ;
+    background: url("../assets/fundo.jpg");
     background-position: center;
     background-size: cover;
     
@@ -98,7 +100,7 @@ section.fundoVerde {
     
     background-image: url("../assets/folhasss.png");
     background-size: 10em;
-
+    background-blend-mode:saturation;
 }
 
 section h2 {
